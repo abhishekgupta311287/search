@@ -1,7 +1,6 @@
 package search.abhishek.com.imagesearch;
 
 import android.app.Activity;
-import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

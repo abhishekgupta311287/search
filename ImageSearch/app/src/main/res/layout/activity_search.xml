@@ -21,12 +21,22 @@
     <ListView
         android:id="@+id/list"
         android:layout_marginTop="5dp"
-        android:entries="@android:array/phoneTypes"
         android:layout_below="@+id/searchField"
-        android:visibility="visible"
+        android:smoothScrollbar="true"
+        android:visibility="gone"
         android:dividerHeight="2dp"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchField"
+        android:layout_marginTop="10dp"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
 
 
 </RelativeLayout>
